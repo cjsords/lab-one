@@ -6,6 +6,7 @@
 
 body {
   background-color: #f9fafc;
+  /*backup font here*/
   padding: 15px;
 }
 
@@ -20,6 +21,7 @@ body {
 }
 
 li {
+  /*alt - list-style: none*/
   list-style-type: none;
   padding: 2px;
 }
@@ -42,6 +44,7 @@ nav {
 .nav-link a {
   text-decoration: none;
   color: #69696a;
+  /*width: fit-content*/
 }
 
 a:visited {
@@ -59,6 +62,8 @@ a:visited {
   padding-bottom: 5px;
   display: inline-block;
   width: 100%;
+  /*100% width will size the content, not the margin*/
+  /*box-sizing: border-box;*/
 }
 
 .main-content p {
